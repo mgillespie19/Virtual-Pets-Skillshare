@@ -10,22 +10,24 @@ import SwiftUI
 
 struct PetInfo: View {
     
+    @ObservedObject var viewModel: PetViewModel
+    
     var screenHeight = UIScreen.main.bounds.height
     var barWidth = UIScreen.main.bounds.width * 0.9
     
-    @State var foodPct: CGFloat = 0.3
-    @State var happinessPct: CGFloat = 0.5
+    @State var foodPct: CGFloat = 0
+    @State var happinessPct: CGFloat = 0
     
     var body: some View {
         VStack {
             ZStack(alignment: .top) {
                 Rectangle()
-                    .foregroundColor(Color(red: 1, green: 0.46, blue: 0.46))
+                    .foregroundColor(viewModel.selectedPet.background)
                     .edgesIgnoringSafeArea(.top)
                 
                 VStack {
                     Spacer()
-                    Image("Bunny")
+                    Image(uiImage: viewModel.selectedPet.image)
                         .resizable()
                         .frame(width: 120, height: 120)
                     Spacer()
@@ -40,13 +42,15 @@ struct PetInfo: View {
             ProgressBar(barWidth: barWidth, barHeight: 30, barPct: $foodPct)
                 
             Button(action: {
-                print("feed pet")
+                self.viewModel.feed()
+                self.updatePercents()
             }, label: {
                 ActionButton(title: "Feed", barWidth: barWidth)
             }).padding()
                 
             Button(action: {
-                print("play with pet")
+                self.viewModel.play()
+                self.updatePercents()
             }, label: {
                 ActionButton(title: "Play", barWidth: barWidth)
             }).padding()
@@ -72,10 +76,15 @@ struct PetInfo: View {
             .padding()
         }
     }
+    
+    private func updatePercents() {
+        self.foodPct = CGFloat(self.viewModel.selectedPet.foodLevel) / 10
+        self.happinessPct = CGFloat(self.viewModel.selectedPet.happiness) / 10
+    }
 }
 
 struct PetInfo_Previews: PreviewProvider {
     static var previews: some View {
-        PetInfo()
+        PetInfo(viewModel: PetViewModel())
     }
 }

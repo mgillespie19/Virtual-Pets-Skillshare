@@ -10,7 +10,7 @@ import SwiftUI
 
 struct PetView: View {
     var body: some View {
-        PetInfo()
+        PetInfo(viewModel: PetViewModel())
     }
 }
 
