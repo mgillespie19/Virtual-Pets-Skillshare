@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6159B1D2506D3D700FEE09C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6159B1C2506D3D700FEE09C /* AppDelegate.swift */; };
+		F6159B1F2506D3D700FEE09C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6159B1E2506D3D700FEE09C /* SceneDelegate.swift */; };
+		F6159B222506D3D700FEE09C /* Virtual_Pets_Skillshare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6159B202506D3D700FEE09C /* Virtual_Pets_Skillshare.xcdatamodeld */; };
+		F6159B242506D3D700FEE09C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6159B232506D3D700FEE09C /* ContentView.swift */; };
+		F6159B262506D3D800FEE09C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6159B252506D3D800FEE09C /* Assets.xcassets */; };
+		F6159B292506D3D800FEE09C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6159B282506D3D800FEE09C /* Preview Assets.xcassets */; };
+		F6159B2C2506D3D800FEE09C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6159B2A2506D3D800FEE09C /* LaunchScreen.storyboard */; };
+		F6159B372506D3D800FEE09C /* Virtual_Pets_SkillshareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6159B362506D3D800FEE09C /* Virtual_Pets_SkillshareTests.swift */; };
+		F6159B422506D3D800FEE09C /* Virtual_Pets_SkillshareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6159B412506D3D800FEE09C /* Virtual_Pets_SkillshareUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6159B332506D3D800FEE09C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6159B112506D3D700FEE09C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6159B182506D3D700FEE09C;
+			remoteInfo = "Virtual-Pets-Skillshare";
+		};
+		F6159B3E2506D3D800FEE09C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6159B112506D3D700FEE09C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6159B182506D3D700FEE09C;
+			remoteInfo = "Virtual-Pets-Skillshare";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6159B192506D3D700FEE09C /* Virtual-Pets-Skillshare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Virtual-Pets-Skillshare.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6159B1C2506D3D700FEE09C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6159B1E2506D3D700FEE09C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F6159B212506D3D700FEE09C /* Virtual_Pets_Skillshare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Virtual_Pets_Skillshare.xcdatamodel; sourceTree = "<group>"; };
+		F6159B232506D3D700FEE09C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6159B252506D3D800FEE09C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6159B282506D3D800FEE09C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6159B2B2506D3D800FEE09C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6159B2D2506D3D800FEE09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6159B322506D3D800FEE09C /* Virtual-Pets-SkillshareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Virtual-Pets-SkillshareTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6159B362506D3D800FEE09C /* Virtual_Pets_SkillshareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Virtual_Pets_SkillshareTests.swift; sourceTree = "<group>"; };
+		F6159B382506D3D800FEE09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6159B3D2506D3D800FEE09C /* Virtual-Pets-SkillshareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Virtual-Pets-SkillshareUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6159B412506D3D800FEE09C /* Virtual_Pets_SkillshareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Virtual_Pets_SkillshareUITests.swift; sourceTree = "<group>"; };
+		F6159B432506D3D800FEE09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6159B162506D3D700FEE09C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6159B2F2506D3D800FEE09C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6159B3A2506D3D800FEE09C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6159B102506D3D700FEE09C = {
+			isa = PBXGroup;
+			children = (
+				F6159B1B2506D3D700FEE09C /* Virtual-Pets-Skillshare */,
+				F6159B352506D3D800FEE09C /* Virtual-Pets-SkillshareTests */,
+				F6159B402506D3D800FEE09C /* Virtual-Pets-SkillshareUITests */,
+				F6159B1A2506D3D700FEE09C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6159B1A2506D3D700FEE09C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6159B192506D3D700FEE09C /* Virtual-Pets-Skillshare.app */,
+				F6159B322506D3D800FEE09C /* Virtual-Pets-SkillshareTests.xctest */,
+				F6159B3D2506D3D800FEE09C /* Virtual-Pets-SkillshareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6159B1B2506D3D700FEE09C /* Virtual-Pets-Skillshare */ = {
+			isa = PBXGroup;
+			children = (
+				F6159B1C2506D3D700FEE09C /* AppDelegate.swift */,
+				F6159B1E2506D3D700FEE09C /* SceneDelegate.swift */,
+				F6159B232506D3D700FEE09C /* ContentView.swift */,
+				F6159B252506D3D800FEE09C /* Assets.xcassets */,
+				F6159B2A2506D3D800FEE09C /* LaunchScreen.storyboard */,
+				F6159B2D2506D3D800FEE09C /* Info.plist */,
+				F6159B202506D3D700FEE09C /* Virtual_Pets_Skillshare.xcdatamodeld */,
+				F6159B272506D3D800FEE09C /* Preview Content */,
+			);
+			path = "Virtual-Pets-Skillshare";
+			sourceTree = "<group>";
+		};
+		F6159B272506D3D800FEE09C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F6159B282506D3D800FEE09C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F6159B352506D3D800FEE09C /* Virtual-Pets-SkillshareTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6159B362506D3D800FEE09C /* Virtual_Pets_SkillshareTests.swift */,
+				F6159B382506D3D800FEE09C /* Info.plist */,
+			);
+			path = "Virtual-Pets-SkillshareTests";
+			sourceTree = "<group>";
+		};
+		F6159B402506D3D800FEE09C /* Virtual-Pets-SkillshareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6159B412506D3D800FEE09C /* Virtual_Pets_SkillshareUITests.swift */,
+				F6159B432506D3D800FEE09C /* Info.plist */,
+			);
+			path = "Virtual-Pets-SkillshareUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6159B182506D3D700FEE09C /* Virtual-Pets-Skillshare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6159B462506D3D800FEE09C /* Build configuration list for PBXNativeTarget "Virtual-Pets-Skillshare" */;
+			buildPhases = (
+				F6159B152506D3D700FEE09C /* Sources */,
+				F6159B162506D3D700FEE09C /* Frameworks */,
+				F6159B172506D3D700FEE09C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Virtual-Pets-Skillshare";
+			productName = "Virtual-Pets-Skillshare";
+			productReference = F6159B192506D3D700FEE09C /* Virtual-Pets-Skillshare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6159B312506D3D800FEE09C /* Virtual-Pets-SkillshareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6159B492506D3D800FEE09C /* Build configuration list for PBXNativeTarget "Virtual-Pets-SkillshareTests" */;
+			buildPhases = (
+				F6159B2E2506D3D800FEE09C /* Sources */,
+				F6159B2F2506D3D800FEE09C /* Frameworks */,
+				F6159B302506D3D800FEE09C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6159B342506D3D800FEE09C /* PBXTargetDependency */,
+			);
+			name = "Virtual-Pets-SkillshareTests";
+			productName = "Virtual-Pets-SkillshareTests";
+			productReference = F6159B322506D3D800FEE09C /* Virtual-Pets-SkillshareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6159B3C2506D3D800FEE09C /* Virtual-Pets-SkillshareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6159B4C2506D3D800FEE09C /* Build configuration list for PBXNativeTarget "Virtual-Pets-SkillshareUITests" */;
+			buildPhases = (
+				F6159B392506D3D800FEE09C /* Sources */,
+				F6159B3A2506D3D800FEE09C /* Frameworks */,
+				F6159B3B2506D3D800FEE09C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6159B3F2506D3D800FEE09C /* PBXTargetDependency */,
+			);
+			name = "Virtual-Pets-SkillshareUITests";
+			productName = "Virtual-Pets-SkillshareUITests";
+			productReference = F6159B3D2506D3D800FEE09C /* Virtual-Pets-SkillshareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6159B112506D3D700FEE09C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Max Gillespie";
+				TargetAttributes = {
+					F6159B182506D3D700FEE09C = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					F6159B312506D3D800FEE09C = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = F6159B182506D3D700FEE09C;
+					};
+					F6159B3C2506D3D800FEE09C = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = F6159B182506D3D700FEE09C;
+					};
+				};
+			};
+			buildConfigurationList = F6159B142506D3D700FEE09C /* Build configuration list for PBXProject "Virtual-Pets-Skillshare" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6159B102506D3D700FEE09C;
+			productRefGroup = F6159B1A2506D3D700FEE09C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6159B182506D3D700FEE09C /* Virtual-Pets-Skillshare */,
+				F6159B312506D3D800FEE09C /* Virtual-Pets-SkillshareTests */,
+				F6159B3C2506D3D800FEE09C /* Virtual-Pets-SkillshareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6159B172506D3D700FEE09C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6159B2C2506D3D800FEE09C /* LaunchScreen.storyboard in Resources */,
+				F6159B292506D3D800FEE09C /* Preview Assets.xcassets in Resources */,
+				F6159B262506D3D800FEE09C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6159B302506D3D800FEE09C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6159B3B2506D3D800FEE09C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6159B152506D3D700FEE09C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6159B222506D3D700FEE09C /* Virtual_Pets_Skillshare.xcdatamodeld in Sources */,
+				F6159B1D2506D3D700FEE09C /* AppDelegate.swift in Sources */,
+				F6159B242506D3D700FEE09C /* ContentView.swift in Sources */,
+				F6159B1F2506D3D700FEE09C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6159B2E2506D3D800FEE09C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6159B372506D3D800FEE09C /* Virtual_Pets_SkillshareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6159B392506D3D800FEE09C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6159B422506D3D800FEE09C /* Virtual_Pets_SkillshareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6159B342506D3D800FEE09C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6159B182506D3D700FEE09C /* Virtual-Pets-Skillshare */;
+			targetProxy = F6159B332506D3D800FEE09C /* PBXContainerItemProxy */;
+		};
+		F6159B3F2506D3D800FEE09C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6159B182506D3D700FEE09C /* Virtual-Pets-Skillshare */;
+			targetProxy = F6159B3E2506D3D800FEE09C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6159B2A2506D3D800FEE09C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6159B2B2506D3D800FEE09C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6159B442506D3D800FEE09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6159B452506D3D800FEE09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6159B472506D3D800FEE09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Virtual-Pets-Skillshare/Preview Content\"";
+				DEVELOPMENT_TEAM = Q7TC672PPY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Virtual-Pets-Skillshare/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Max-Gillespie.Virtual-Pets-Skillshare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6159B482506D3D800FEE09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Virtual-Pets-Skillshare/Preview Content\"";
+				DEVELOPMENT_TEAM = Q7TC672PPY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Virtual-Pets-Skillshare/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Max-Gillespie.Virtual-Pets-Skillshare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6159B4A2506D3D800FEE09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7TC672PPY;
+				INFOPLIST_FILE = "Virtual-Pets-SkillshareTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Max-Gillespie.Virtual-Pets-SkillshareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Virtual-Pets-Skillshare.app/Virtual-Pets-Skillshare";
+			};
+			name = Debug;
+		};
+		F6159B4B2506D3D800FEE09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7TC672PPY;
+				INFOPLIST_FILE = "Virtual-Pets-SkillshareTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Max-Gillespie.Virtual-Pets-SkillshareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Virtual-Pets-Skillshare.app/Virtual-Pets-Skillshare";
+			};
+			name = Release;
+		};
+		F6159B4D2506D3D800FEE09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7TC672PPY;
+				INFOPLIST_FILE = "Virtual-Pets-SkillshareUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Max-Gillespie.Virtual-Pets-SkillshareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Virtual-Pets-Skillshare";
+			};
+			name = Debug;
+		};
+		F6159B4E2506D3D800FEE09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7TC672PPY;
+				INFOPLIST_FILE = "Virtual-Pets-SkillshareUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Max-Gillespie.Virtual-Pets-SkillshareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Virtual-Pets-Skillshare";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6159B142506D3D700FEE09C /* Build configuration list for PBXProject "Virtual-Pets-Skillshare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6159B442506D3D800FEE09C /* Debug */,
+				F6159B452506D3D800FEE09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6159B462506D3D800FEE09C /* Build configuration list for PBXNativeTarget "Virtual-Pets-Skillshare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6159B472506D3D800FEE09C /* Debug */,
+				F6159B482506D3D800FEE09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6159B492506D3D800FEE09C /* Build configuration list for PBXNativeTarget "Virtual-Pets-SkillshareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6159B4A2506D3D800FEE09C /* Debug */,
+				F6159B4B2506D3D800FEE09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6159B4C2506D3D800FEE09C /* Build configuration list for PBXNativeTarget "Virtual-Pets-SkillshareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6159B4D2506D3D800FEE09C /* Debug */,
+				F6159B4E2506D3D800FEE09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F6159B202506D3D700FEE09C /* Virtual_Pets_Skillshare.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F6159B212506D3D700FEE09C /* Virtual_Pets_Skillshare.xcdatamodel */,
+			);
+			currentVersion = F6159B212506D3D700FEE09C /* Virtual_Pets_Skillshare.xcdatamodel */;
+			path = Virtual_Pets_Skillshare.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F6159B112506D3D700FEE09C /* Project object */;
+}
