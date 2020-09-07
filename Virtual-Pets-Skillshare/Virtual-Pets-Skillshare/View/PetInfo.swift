@@ -18,11 +18,24 @@ struct PetInfo: View {
     
     var body: some View {
         VStack {
-            Text("Pet info")
-            
-            Image("Bunny")
+            ZStack(alignment: .top) {
+                Rectangle()
+                    .foregroundColor(Color(red: 1, green: 0.46, blue: 0.46))
+                    .edgesIgnoringSafeArea(.top)
+                
+                VStack {
+                    Spacer()
+                    Image("Bunny")
+                        .resizable()
+                        .frame(width: 120, height: 120)
+                    Spacer()
+                }
+            }
+            .frame(height: screenHeight / 2)
             
             Text("food level: \(foodPct)")
+            
+            Spacer()
         }
     }
 }
