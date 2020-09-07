@@ -31,56 +31,25 @@ struct PetInfo: View {
                     Spacer()
                 }
                 
-                ZStack (alignment: .leading) {
-                    Rectangle()
-                        .foregroundColor(.black)
-                        .frame(width: barWidth, height: 30)
-                        .opacity(0.1)
-                        .padding()
-                    Rectangle()
-                        .foregroundColor(.black)
-                        .frame(width: (barWidth * foodPct), height: 30)
-                        .padding()
-                        .animation(.easeInOut)
-                }
+                ProgressBar(barWidth: barWidth, barHeight: 50, barPct: $happinessPct)
             }
             .frame(height: screenHeight / 2)
             
             Spacer()
             
-            ZStack (alignment: .leading) {
-                Rectangle()
-                    .foregroundColor(.black)
-                    .frame(width: barWidth, height: 30)
-                    .opacity(0.1)
-                    .padding()
-                Rectangle()
-                    .foregroundColor(.black)
-                    .frame(width: (barWidth * foodPct), height: 30)
-                    .padding()
-                    .animation(.easeInOut)
-            }
+            ProgressBar(barWidth: barWidth, barHeight: 30, barPct: $foodPct)
                 
             Button(action: {
                 print("feed pet")
             }, label: {
-                Text("Feed")
-                    .frame(width: barWidth, height: 50)
-                    .background(Color.white)
-                    .cornerRadius(4)
-                    .shadow(radius: 2)
-            })
+                ActionButton(title: "Feed", barWidth: barWidth)
+            }).padding()
                 
             Button(action: {
                 print("play with pet")
             }, label: {
-                Text("Play")
-                    .frame(width: barWidth, height: 50)
-                    .background(Color.white)
-                    .cornerRadius(4)
-                    .padding()
-                    .shadow(radius: 2)
-            })
+                ActionButton(title: "Play", barWidth: barWidth)
+            }).padding()
             
             Spacer()
             
@@ -89,16 +58,16 @@ struct PetInfo: View {
                        label: { Text("Bird") })
                 Spacer()
                 Button(action: { print("Select bunny") },
-                label: { Text("Bunny") })
+                       label: { Text("Bunny") })
                 Spacer()
                 Button(action: { print("Select cat") },
-                label: { Text("Cat") })
+                       label: { Text("Cat") })
                 Spacer()
                 Button(action: { print("Select dog") },
-                label: { Text("Dog") })
+                       label: { Text("Dog") })
                 Spacer()
                 Button(action: { print("Select fish") },
-                label: { Text("Fish") })
+                       label: { Text("Fish") })
             }
             .padding()
         }
