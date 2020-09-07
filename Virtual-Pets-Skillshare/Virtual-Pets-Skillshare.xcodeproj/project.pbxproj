@@ -101,6 +101,9 @@
 		F6159B1B2506D3D700FEE09C /* Virtual-Pets-Skillshare */ = {
 			isa = PBXGroup;
 			children = (
+				F6159B512506D44C00FEE09C /* View */,
+				F6159B502506D44600FEE09C /* Model */,
+				F6159B4F2506D43900FEE09C /* Viewmodel */,
 				F6159B1C2506D3D700FEE09C /* AppDelegate.swift */,
 				F6159B1E2506D3D700FEE09C /* SceneDelegate.swift */,
 				F6159B232506D3D700FEE09C /* ContentView.swift */,
@@ -137,6 +140,27 @@
 				F6159B432506D3D800FEE09C /* Info.plist */,
 			);
 			path = "Virtual-Pets-SkillshareUITests";
+			sourceTree = "<group>";
+		};
+		F6159B4F2506D43900FEE09C /* Viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Viewmodel;
+			sourceTree = "<group>";
+		};
+		F6159B502506D44600FEE09C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6159B512506D44C00FEE09C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
