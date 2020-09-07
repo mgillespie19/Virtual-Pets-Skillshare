@@ -10,7 +10,7 @@ import SwiftUI
 
 struct PetView: View {
     var body: some View {
-        Text("Pet view")
+        PetInfo()
     }
 }
 

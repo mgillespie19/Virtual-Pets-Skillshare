@@ -16,6 +16,7 @@
 		F6159B2C2506D3D800FEE09C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6159B2A2506D3D800FEE09C /* LaunchScreen.storyboard */; };
 		F6159B372506D3D800FEE09C /* Virtual_Pets_SkillshareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6159B362506D3D800FEE09C /* Virtual_Pets_SkillshareTests.swift */; };
 		F6159B422506D3D800FEE09C /* Virtual_Pets_SkillshareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6159B412506D3D800FEE09C /* Virtual_Pets_SkillshareUITests.swift */; };
+		F6159B532506D57F00FEE09C /* PetInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6159B522506D57F00FEE09C /* PetInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F6159B3D2506D3D800FEE09C /* Virtual-Pets-SkillshareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Virtual-Pets-SkillshareUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6159B412506D3D800FEE09C /* Virtual_Pets_SkillshareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Virtual_Pets_SkillshareUITests.swift; sourceTree = "<group>"; };
 		F6159B432506D3D800FEE09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6159B522506D57F00FEE09C /* PetInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 		F6159B512506D44C00FEE09C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F6159B522506D57F00FEE09C /* PetInfo.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6159B222506D3D700FEE09C /* Virtual_Pets_Skillshare.xcdatamodeld in Sources */,
+				F6159B532506D57F00FEE09C /* PetInfo.swift in Sources */,
 				F6159B1D2506D3D700FEE09C /* AppDelegate.swift in Sources */,
 				F6159B242506D3D700FEE09C /* PetView.swift in Sources */,
 				F6159B1F2506D3D700FEE09C /* SceneDelegate.swift in Sources */,
