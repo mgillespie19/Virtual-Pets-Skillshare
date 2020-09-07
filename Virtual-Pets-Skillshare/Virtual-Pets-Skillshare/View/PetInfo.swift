@@ -30,12 +30,77 @@ struct PetInfo: View {
                         .frame(width: 120, height: 120)
                     Spacer()
                 }
+                
+                ZStack (alignment: .leading) {
+                    Rectangle()
+                        .foregroundColor(.black)
+                        .frame(width: barWidth, height: 30)
+                        .opacity(0.1)
+                        .padding()
+                    Rectangle()
+                        .foregroundColor(.black)
+                        .frame(width: (barWidth * foodPct), height: 30)
+                        .padding()
+                        .animation(.easeInOut)
+                }
             }
             .frame(height: screenHeight / 2)
             
-            Text("food level: \(foodPct)")
+            Spacer()
+            
+            ZStack (alignment: .leading) {
+                Rectangle()
+                    .foregroundColor(.black)
+                    .frame(width: barWidth, height: 30)
+                    .opacity(0.1)
+                    .padding()
+                Rectangle()
+                    .foregroundColor(.black)
+                    .frame(width: (barWidth * foodPct), height: 30)
+                    .padding()
+                    .animation(.easeInOut)
+            }
+                
+            Button(action: {
+                print("feed pet")
+            }, label: {
+                Text("Feed")
+                    .frame(width: barWidth, height: 50)
+                    .background(Color.white)
+                    .cornerRadius(4)
+                    .shadow(radius: 2)
+            })
+                
+            Button(action: {
+                print("play with pet")
+            }, label: {
+                Text("Play")
+                    .frame(width: barWidth, height: 50)
+                    .background(Color.white)
+                    .cornerRadius(4)
+                    .padding()
+                    .shadow(radius: 2)
+            })
             
             Spacer()
+            
+            HStack {
+                Button(action: { print("Select bird") },
+                       label: { Text("Bird") })
+                Spacer()
+                Button(action: { print("Select bunny") },
+                label: { Text("Bunny") })
+                Spacer()
+                Button(action: { print("Select cat") },
+                label: { Text("Cat") })
+                Spacer()
+                Button(action: { print("Select dog") },
+                label: { Text("Dog") })
+                Spacer()
+                Button(action: { print("Select fish") },
+                label: { Text("Fish") })
+            }
+            .padding()
         }
     }
 }
