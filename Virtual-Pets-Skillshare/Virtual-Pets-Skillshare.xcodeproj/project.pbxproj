@@ -19,6 +19,8 @@
 		F6159B532506D57F00FEE09C /* PetInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6159B522506D57F00FEE09C /* PetInfo.swift */; };
 		F6159B562506DC3300FEE09C /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6159B552506DC3300FEE09C /* ProgressBar.swift */; };
 		F6159B582506DCC900FEE09C /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6159B572506DCC900FEE09C /* ActionButton.swift */; };
+		F6159B5A2506DD9F00FEE09C /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6159B592506DD9F00FEE09C /* Pet.swift */; };
+		F6159B5C2506DDAD00FEE09C /* PetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6159B5B2506DDAD00FEE09C /* PetViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		F6159B522506D57F00FEE09C /* PetInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetInfo.swift; sourceTree = "<group>"; };
 		F6159B552506DC3300FEE09C /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		F6159B572506DCC900FEE09C /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		F6159B592506DD9F00FEE09C /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		F6159B5B2506DDAD00FEE09C /* PetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,7 @@
 		F6159B4F2506D43900FEE09C /* Viewmodel */ = {
 			isa = PBXGroup;
 			children = (
+				F6159B5B2506DDAD00FEE09C /* PetViewModel.swift */,
 			);
 			path = Viewmodel;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 		F6159B502506D44600FEE09C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F6159B592506DD9F00FEE09C /* Pet.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -311,11 +317,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6159B5C2506DDAD00FEE09C /* PetViewModel.swift in Sources */,
 				F6159B222506D3D700FEE09C /* Virtual_Pets_Skillshare.xcdatamodeld in Sources */,
 				F6159B532506D57F00FEE09C /* PetInfo.swift in Sources */,
 				F6159B1D2506D3D700FEE09C /* AppDelegate.swift in Sources */,
 				F6159B242506D3D700FEE09C /* PetView.swift in Sources */,
 				F6159B562506DC3300FEE09C /* ProgressBar.swift in Sources */,
+				F6159B5A2506DD9F00FEE09C /* Pet.swift in Sources */,
 				F6159B1F2506D3D700FEE09C /* SceneDelegate.swift in Sources */,
 				F6159B582506DCC900FEE09C /* ActionButton.swift in Sources */,
 			);
