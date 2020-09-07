@@ -58,19 +58,28 @@ struct PetInfo: View {
             Spacer()
             
             HStack {
-                Button(action: { print("Select bird") },
-                       label: { Text("Bird") })
-                Spacer()
-                Button(action: { print("Select bunny") },
-                       label: { Text("Bunny") })
-                Spacer()
-                Button(action: { print("Select cat") },
-                       label: { Text("Cat") })
-                Spacer()
-                Button(action: { print("Select dog") },
+                Button(action: {
+                    self.viewModel.changeSelection(key: "Dog")
+                    self.updatePercents()
+                },
                        label: { Text("Dog") })
                 Spacer()
-                Button(action: { print("Select fish") },
+                Button(action: {
+                    self.viewModel.changeSelection(key: "Cat")
+                    self.updatePercents()
+                },
+                       label: { Text("Cat") })
+                Spacer()
+                Button(action: {
+                    self.viewModel.changeSelection(key: "Parrot")
+                    self.updatePercents()
+                },
+                       label: { Text("Parrot") })
+                Spacer()
+                Button(action: {
+                    self.viewModel.changeSelection(key: "Fish")
+                    self.updatePercents()
+                },
                        label: { Text("Fish") })
             }
             .padding()
