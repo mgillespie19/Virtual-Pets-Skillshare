@@ -10,7 +10,7 @@
 		F6159B1D2506D3D700FEE09C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6159B1C2506D3D700FEE09C /* AppDelegate.swift */; };
 		F6159B1F2506D3D700FEE09C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6159B1E2506D3D700FEE09C /* SceneDelegate.swift */; };
 		F6159B222506D3D700FEE09C /* Virtual_Pets_Skillshare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6159B202506D3D700FEE09C /* Virtual_Pets_Skillshare.xcdatamodeld */; };
-		F6159B242506D3D700FEE09C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6159B232506D3D700FEE09C /* ContentView.swift */; };
+		F6159B242506D3D700FEE09C /* PetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6159B232506D3D700FEE09C /* PetView.swift */; };
 		F6159B262506D3D800FEE09C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6159B252506D3D800FEE09C /* Assets.xcassets */; };
 		F6159B292506D3D800FEE09C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6159B282506D3D800FEE09C /* Preview Assets.xcassets */; };
 		F6159B2C2506D3D800FEE09C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6159B2A2506D3D800FEE09C /* LaunchScreen.storyboard */; };
@@ -40,7 +40,7 @@
 		F6159B1C2506D3D700FEE09C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6159B1E2506D3D700FEE09C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F6159B212506D3D700FEE09C /* Virtual_Pets_Skillshare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Virtual_Pets_Skillshare.xcdatamodel; sourceTree = "<group>"; };
-		F6159B232506D3D700FEE09C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6159B232506D3D700FEE09C /* PetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetView.swift; sourceTree = "<group>"; };
 		F6159B252506D3D800FEE09C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6159B282506D3D800FEE09C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F6159B2B2506D3D800FEE09C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 				F6159B4F2506D43900FEE09C /* Viewmodel */,
 				F6159B1C2506D3D700FEE09C /* AppDelegate.swift */,
 				F6159B1E2506D3D700FEE09C /* SceneDelegate.swift */,
-				F6159B232506D3D700FEE09C /* ContentView.swift */,
+				F6159B232506D3D700FEE09C /* PetView.swift */,
 				F6159B252506D3D800FEE09C /* Assets.xcassets */,
 				F6159B2A2506D3D800FEE09C /* LaunchScreen.storyboard */,
 				F6159B2D2506D3D800FEE09C /* Info.plist */,
@@ -296,7 +296,7 @@
 			files = (
 				F6159B222506D3D700FEE09C /* Virtual_Pets_Skillshare.xcdatamodeld in Sources */,
 				F6159B1D2506D3D700FEE09C /* AppDelegate.swift in Sources */,
-				F6159B242506D3D700FEE09C /* ContentView.swift in Sources */,
+				F6159B242506D3D700FEE09C /* PetView.swift in Sources */,
 				F6159B1F2506D3D700FEE09C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
