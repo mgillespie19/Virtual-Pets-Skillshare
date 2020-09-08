@@ -101,9 +101,11 @@
 		F6159B1B2506D3D700FEE09C /* Virtual-Pets-Skillshare */ = {
 			isa = PBXGroup;
 			children = (
+				F62B2F52250828980008DFE0 /* View */,
+				F62B2F51250828940008DFE0 /* Model */,
+				F62B2F502508288D0008DFE0 /* Viewmodel */,
 				F6159B1C2506D3D700FEE09C /* AppDelegate.swift */,
 				F6159B1E2506D3D700FEE09C /* SceneDelegate.swift */,
-				F6159B232506D3D700FEE09C /* ContentView.swift */,
 				F6159B252506D3D800FEE09C /* Assets.xcassets */,
 				F6159B2A2506D3D800FEE09C /* LaunchScreen.storyboard */,
 				F6159B2D2506D3D800FEE09C /* Info.plist */,
@@ -137,6 +139,28 @@
 				F6159B432506D3D800FEE09C /* Info.plist */,
 			);
 			path = "Virtual-Pets-SkillshareUITests";
+			sourceTree = "<group>";
+		};
+		F62B2F502508288D0008DFE0 /* Viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Viewmodel;
+			sourceTree = "<group>";
+		};
+		F62B2F51250828940008DFE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F62B2F52250828980008DFE0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6159B232506D3D700FEE09C /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
